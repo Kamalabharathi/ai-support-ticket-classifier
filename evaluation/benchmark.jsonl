@@ -1,0 +1,6 @@
+{"text":"My package has not arrived after a week", "expected_category":"delivery_issue", "expected_team":"logistics_team"}
+{"text":"I was charged twice for the same invoice", "expected_category":"payment_issue", "expected_team":"payments_team"}
+{"text":"Please refund my cancelled order", "expected_category":"refund_request", "expected_team":"payments_team"}
+{"text":"I cannot login to my account", "expected_category":"account_issue", "expected_team":"tech_team"}
+{"text":"The product arrived broken", "expected_category":"product_issue", "expected_team":"customer_support"}
+{"text":"Can I cancel an order that I placed?", "expected_category":"order_issue", "expected_team":"fulfillment_team"}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "name": "explicit_refund_intent",
+      "expected_category": "refund_request",
+      "intent_pattern": "\\b(refund|reimburs\\w*|money back|payment reversed)\\b"
+    },
+    {
+      "name": "order_modification_intent",
+      "expected_category": "order_issue",
+      "intent_pattern": "\\b(change|update|modify|correct|cancel|wrong|remove|replace|increase|decrease|did not place|didn't place|not place)\\b",
+      "context_pattern": "\\b(order|ordered|orders|purchase|checkout|dispatch|dispatched)\\b"
+    }
+  ]
+}
